@@ -1,0 +1,295 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Michael The Analyst Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1>Michael The Analyst Portfolio<br />
+						</h1>
+						<p>Data Analyst skilled in SQL, Tableau, Excel, Power BI and Python <a href="https://twitter.com/"> <br />
+							@mykel4live</b></a>  </p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				<!-- Header -->
+					<header id="header">
+						<a href="projects.html" class="logo">MICHAEL THE ANALYST</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="projects.html">PROJECTS OVERVIEW</a></li>
+							<li><a href="sql.html">SQL PROJECTS</a></li>
+							<li><a href="tableau.html">TABLEAU PROJECTS</a></li>
+							<li><a href="python.html">PYTHON PROJECTS</a></li>
+							<li><a href="excel.html">EXCEL PROJECTS</a></li>
+							<li><a href="power-bi.html">POWER BI PROJECTS</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main 1 -->
+					<div id="main">
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<h2><a href="https://github.com/mykel4live/MichaelTheAnalyst/commit/33698f683b3f25414ae8135a3055aba481e69e02">Data Cleaning in SQL </a>
+									</h2>
+								</header>
+								
+							<a href="https://github.com/mykel4live/MichaelTheAnalyst/commit/33698f683b3f25414ae8135a3055aba481e69e02" class="image main"><img src="images/covid19.jpg" alt="" /></a>
+								
+							<p> In this project, I cleaned World Layoff data as of 2023 in SQL Server. The data set described the impact of COVID 19 on countries and companies around the world as of 2023.</p>					
+								
+								<table style="width:100%">
+      								<tr>
+        								<td colspan="3" bgcolor="#A4A4A4">Steps taken to clean up dataset are:</td>
+      								</tr>
+								</table>
+        					<ul style="margin:0; margin-left: 25px; padding:0;" align="left" type="disc">
+            					<li>Removed duplicates: using the ROW_NUMBER, Common Table Expression (CTE) i.e. WITH and DELETE statements.</li>
+            					<li>Standardize the data; removing space at the beginning of columns using DISTNCT, LIKE, TRIM, TRAILING, UPDATE, SET, STR_TO_DATE() and ALTER TABLE statements.</li>
+            					<li>Removed null and blank values: using JOIN and CREATE TABLE to bring the same table side-by-side, them compare and populate common columns.</li>
+								<li>Removed irrelevant rows and columns: using the DELETE, ALTER TABLE and DROP COLUMN statements.</li>
+							</ul>
+								
+								<ul class="actions special">
+									<li><a href="https://github.com/mykel4live/MichaelTheAnalyst/commit/33698f683b3f25414ae8135a3055aba481e69e02" class="button large">VIEW PROJECT</a></li>
+								</ul>
+				</article>
+							
+				
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<h2><a href="https://github.com/mykel4live/MichaelTheAnalyst/commit/78ac3ce9d32164fd2da27e20fc1788503d873c5d">Exploratory Data Analysis (EDA) in SQL<br /></a>
+									</h2>
+								</header>
+								<a href="https://github.com/mykel4live/MichaelTheAnalyst/commit/78ac3ce9d32164fd2da27e20fc1788503d873c5d" class="image fit"><img src="images/covid19 2.jpg" alt="" /></a>
+								
+								<p> Data Exploration of World Layoffs - Impact of COVID 19 Dataset in SQL Server, using the aggregate functions; COUNT(), COUNTIF(), SUM(), AVG(), MIN(), MAX() and the WHERE, GROUP BY, ORDER BY and DESC statements.</p>
+																
+								<table style="width:100%">
+      								<tr>
+        								<td colspan="3" bgcolor="#A4A4A4">Amongst many others, the following were explored using the dataset:</td>
+      								</tr>
+	  	 						
+									<tr>
+										<td colspan="3">
+											<ul style="margin:0; margin-left: 25px; padding:0;" align="left" type="disc">
+				  								<li>MAX total_laid_off and MAX percentage_laid_off</li>
+				  								<li>total_laid_off DESC</li>
+				  								<li>funds_raised_millions DESC</li>
+				  								<li>GROUP company by SUM of total_laid_off, GROUP by SUM in DESC</li>
+				  								<li>GROUP industry by SUM of total_laid_off, GROUP by SUM in DESC</li>
+				 								<li>GROUP country by SUM of total_laid_off, GROUP by SUM in DESC</li>
+				  								<li>SUBSTRING to roll up year-month in the (`date`) column</li>
+				  								<li>Using CTE ‘WITH’ to perform a Rolling_Total on year-month in the (`date`) SUM column</li>
+				  								<li>DENSE_RANK to RANK and ORDER company by their SUM(total_laid_off)</li>
+			  								</ul>
+										</td>
+		  							</tr>
+          						</table>
+									<ul class="actions special">
+										<li><a href="https://github.com/mykel4live/MichaelTheAnalyst/commit/78ac3ce9d32164fd2da27e20fc1788503d873c5d" class="button large">VIEW PROJECT</a></li>
+									</ul>
+							</article>
+
+							<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+										<h2><a href="https://public.tableau.com/app/profile/michael.adesina/viz/SeattleAirbnbTableauProject/Dashboard1?publish=yes">Seattle Airbnb - Tableau Project</a></h2>
+								</header>
+							<a href="https://public.tableau.com/app/profile/michael.adesina/viz/SeattleAirbnbTableauProject/Dashboard1?publish=yes" class="image fit"><img src="images/Airbnb.jpg" alt="" /></a>
+							<p>A sneak peek into the Airbnb activity in Seattle, WA, USA. With this dataset, I joined the three tables (listing, calendar, and reviews) available to me as one. </p>
+							<table style="width:100%">
+								<tr>
+								  <td colspan="3" bgcolor="#A4A4A4">I created my dashboard by designing the following sheets:</td>
+								</tr>
+							<tr>
+								<td colspan="3">
+									<ul style="margin:0; margin-left: 25px; padding:0;" align="left" type="disc">
+										  <li>I used the zipcodes to create an informed decision of best place to buy a home with good return on investment for Airbnb. I used a Bar Chart which included zipcode and AVG(price) for this illustration titled Price by Zipcode.</li>
+										  <li>Using generated longitude and latitude, I was able to create a geographical representation using map of neighbourhood by zipcode, with their respective AVG(Price).</li>
+										  <li>To find out the best time to put Airbnb on the market for people to use, which was known by finding out when people are spending the most of their money on Airbnb, I used the Date column on calendar with Price to find out the find out the best time to put the Airbnb on the market and titled it Revenue for Year.</li>
+										  <li>Also, I created a chart distributing the bedrooms per AVG(price) in order the find out bedrooms that are bringing in the most money.</li>
+										</ul>
+							
+          						</table>
+									<ul class="actions special">
+										<li><a href="https://github.com/mykel4live/MichaelTheAnalyst/commit/e2d62904e0f73d8950d9477912cd147e4cfadeed" class="button large">VIEW PROJECT</a></li>
+									</ul>
+							</article>
+
+						<!-- Posts -->
+							<section class="posts">
+								<article>
+									<header>
+									
+										<h2><a href="https://github.com/mykel4live/MichaelTheAnalyst/commit/04d795d9075fdcec4c633693145559fa7ec48565">Bike Buyers <br />
+											Excel Project</a></h2>
+									</header>
+									<a href="https://github.com/mykel4live/MichaelTheAnalyst/commit/04d795d9075fdcec4c633693145559fa7ec48565" class="image fit"><img src="images/Bikes 1.jpg" alt="" /></a>
+									<p>I was able to perform the following tasks on the dataset:</p>
+							<ul style="margin:0; margin-left: 25px; padding:0;" align="left" type="disc">
+								<li>Data Cleaning: removed duplicates, replace letters with words, changed income column to currency, use the IF statement to create age brackets.</li>
+								<li>Looked into the average income of both male and female and the respective sum of genders who purchased a bike or not. I used a Bar Chart for this illustration.</li>
+								<li>By using the commute distance and purchased bike columns, I was able to use a Line Chart to provide customer commute distance and respective total of those who purchased a bike or not.</li>
+								<li>Using the Line with Markers Chart, I was able to categorise by age bracket, age range of customers who has purchased bikes or not.</li>
+								<li>Build Dashboard: I was able to bring together the 3 visualizations in a dashboard called (Bike Sales Dashboard), inserted slicer connected all 3 pivot tables created to filter across the dashboard.</li>
+							</ul>
+									<ul class="actions special">
+										<li><a href="https://github.com/mykel4live/MichaelTheAnalyst/commit/04d795d9075fdcec4c633693145559fa7ec48565" class="button">VIEW PROJECT</a></li>
+									</ul>
+								</article>
+								
+								<article>
+									<header>
+										<h2><a href="#">Data Professionals <br />
+										Power BI Project</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/Data Prof 3.jpg" alt="" /></a>
+									<p>Using Power BI, I transformed the data using Power Query Editor to clean up dataset and remove all irrelevant data.</p>
+									
+									<tr>
+										<td colspan="3">
+											<ul style="margin:0; margin-left: 25px; padding:0;" align="left" type="disc">
+				  								<li>Split column, using delimiter.</li>
+				  								<li>Break up the current yearly salary column in order to calculate average salary for better visualization and illustration.</li>
+											</ul>
+										</td>
+										<p>My dashboard includes the following title:</p>
+									</tr>
+									  <tr>
+										<td colspan="3">
+											<ul style="margin:0; margin-left: 25px; padding:0;" align="left" type="disc">		
+												<li>Total count of survey takers</li>
+				  								<li>Average age of survey takers</li>
+				  								<li>Average salary by job title</li>
+				 								<li>Favourite programming language</li>
+				  								<li>Tree chart representation of survey takers by country</li>
+				  								<li>Guage representation of both happy work life balance and salary</li>
+				  								<li>Doughnut chart representation of difficulty to break into data</li>
+			  								</ul>
+										</td>
+		  							</tr>
+									
+									<ul class="actions special">
+										<li><a href="#" class="button">VIEW PROJECT</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="https://github.com/mykel4live/MichaelTheAnalyst/blob/324a93b3a5f90608f4678e6990488150714e31a7/BMI%20Calculator%20-%20Python%20Project">BMI CALCULATOR<br />
+										PYTHON PROJECT</a></h2>
+									</header>
+									<a href="https://github.com/mykel4live/MichaelTheAnalyst/blob/324a93b3a5f90608f4678e6990488150714e31a7/BMI%20Calculator%20-%20Python%20Project" class="image fit"><img src="images/BMI 1.jpg" alt="" /></a>
+									<p>I was able to create a BMI calculator to collect user details and then make an informed advise based on their calculated BMI. The following data would be prompted and collected from the user: Name, Weight, Height. Therefore, BMI = (weight * 703) / (height * height). </p>
+									<p>Using if, elif and else statements, this calculation will print the user’s name and BMI in the context of their respective BMI range. Where:</p>
+									
+									  <tr>
+										<td colspan="3">
+											<ul style="margin:0; margin-left: 25px; padding:0;" align="left" type="disc">		
+												<li>Under 18.5 = Underweight</li>
+												<li>18.5 – 24.9 = Normal Weight</li>
+												<li>25 – 29.9 = Overweight</li>
+												<li>30 – 34.9 = Obese</li>
+												<li>35 – 39.9 = Severely Obese</li>
+												<li>40 and over = Morbidly Obese</li>
+				  							</ul>
+										</td>
+		  							</tr>
+									
+									<ul class="actions special">
+										<li><a href="https://github.com/mykel4live/MichaelTheAnalyst/blob/324a93b3a5f90608f4678e6990488150714e31a7/BMI%20Calculator%20-%20Python%20Project" class="button">VIEW PROJECT</a></li>
+									</ul>
+								</article>
+								
+								<article>
+									<header>
+										<h2><a href="https://github.com/mykel4live/MichaelTheAnalyst/commit/8741d4be81531b5499de0b3a04d6c02d6c07bd8e">Automated File Sorter in File Explorer -<br />
+											Python Project</a></h2>
+									</header>
+									<a href="https://github.com/mykel4live/MichaelTheAnalyst/commit/8741d4be81531b5499de0b3a04d6c02d6c07bd8e" class="image fit"><img src="images/File Sorter 2.jpg" alt="" /></a>
+									<p>This script checks and identifies the type of file in a particular file explorer folder and sorts them into their respective named folders.</p>
+									<p>The code also checks if the named folder already exists before creating a new one to avoid duplicates.</p>
+									<p>Files worked on for tranfer are PNG, CSV and TXT.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/mykel4live/MichaelTheAnalyst/commit/8741d4be81531b5499de0b3a04d6c02d6c07bd8e" class="button">VIEW PROJECT</a></li>
+									</ul>
+								</article>
+			
+					
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+
+							<section class="alt">
+								<h3>Location</h3>
+								<p>United Kingdom, Canada and United States of America<br />
+								</p>
+							</section>
+							<section>
+								<h3>Phone</h3>
+								<p><a href="#">+447867780139</a></p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a href="#">mykel4live@gmail.com</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Michael The Analyst Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1>Michael The Analyst Portfolio<br />
+						</h1>
+						<p>Data Analyst skilled in SQL, Tableau, Excel, Power BI and Python <a href="https://twitter.com/ajlkn">
+							@mykel4live</b></a>  </p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">MICHAEL THE ANALYST</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="projects.html">PROJECTS OVERVIEW</a></li>
+							<li><a href="sql.html">SQL PROJECTS</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main 1 -->
+					<div id="main">
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<h2><a href="#">Data Cleaning in SQL </a>
+									</h2>
+								</header>
+								
+							<a href="#" class="image main"><img src="images/covid19.jpg" alt="" /></a>
+								
+							<p> In this project, I cleaned World Layoff data as of 2023 in SQL Server. The data set described the impact of COVID 19 on countries and companies around the world as of 2023.</p>					
+								
+								<table style="width:100%">
+      								<tr>
+        								<td colspan="3" bgcolor="#A4A4A4">Steps taken to clean up dataset are:</td>
+      								</tr>
+								</table>
+        					<ul style="margin:0; margin-left: 25px; padding:0;" align="left" type="disc">
+            					<li>Removed duplicates: using the ROW_NUMBER, Common Table Expression (CTE) i.e. WITH and DELETE statements.</li>
+            					<li>Standardize the data; removing space at the beginning of columns using DISTNCT, LIKE, TRIM, TRAILING, UPDATE, SET, STR_TO_DATE() and ALTER TABLE statements.</li>
+            					<li>Removed null and blank values: using JOIN and CREATE TABLE to bring the same table side-by-side, them compare and populate common columns.</li>
+								<li>Removed irrelevant rows and columns: using the DELETE, ALTER TABLE and DROP COLUMN statements.</li>
+							</ul>
+								
+								<ul class="actions special">
+									<li><a href="#" class="button large">VIEW PROJECT</a></li>
+								</ul>
+				</article>
+							
+				
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<h2><a href="#">Exploratory Data Analysis (EDA) in SQL<br /></a>
+									</h2>
+								</header>
+								<a href="#" class="image fit"><img src="images/covid19 2.jpg" alt="" /></a>
+								
+								<p> Data Exploration of World Layoffs - Impact of COVID 19 Dataset in SQL Server, using the aggregate functions; COUNT(), COUNTIF(), SUM(), AVG(), MIN(), MAX() and the WHERE, GROUP BY, ORDER BY and DESC statements.</p>
+																
+								<table style="width:100%">
+      								<tr>
+        								<td colspan="3" bgcolor="#A4A4A4">Amongst many others, the following were explored using the dataset:</td>
+      								</tr>
+	  	 						
+									<tr>
+										<td colspan="3">
+											<ul style="margin:0; margin-left: 25px; padding:0;" align="left" type="disc">
+				  								<li>MAX total_laid_off and MAX percentage_laid_off</li>
+				  								<li>total_laid_off DESC</li>
+				  								<li>funds_raised_millions DESC</li>
+				  								<li>GROUP company by SUM of total_laid_off, GROUP by SUM in DESC</li>
+				  								<li>GROUP industry by SUM of total_laid_off, GROUP by SUM in DESC</li>
+				 								<li>GROUP country by SUM of total_laid_off, GROUP by SUM in DESC</li>
+				  								<li>SUBSTRING to roll up year-month in the (`date`) column</li>
+				  								<li>Using CTE ‘WITH’ to perform a Rolling_Total on year-month in the (`date`) SUM column</li>
+				  								<li>DENSE_RANK to RANK and ORDER company by their SUM(total_laid_off)</li>
+			  								</ul>
+										</td>
+		  							</tr>
+          						</table>
+									<ul class="actions special">
+										<li><a href="#" class="button large">VIEW PROJECT</a></li>
+									</ul>
+							</article>
+
+	
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+
+							<section class="alt">
+								<h3>Location</h3>
+								<p>United Kingdom, Canada and United States of America<br />
+								</p>
+							</section>
+							<section>
+								<h3>Phone</h3>
+								<p><a href="#">+447867780139</a></p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a href="#">mykel4live@gmail.com</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
