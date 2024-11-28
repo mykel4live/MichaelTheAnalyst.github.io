@@ -69,13 +69,14 @@
       								<tr>
         								<td colspan="3" bgcolor="#A4A4A4">Steps taken to clean up dataset are:</td>
       								</tr>
+								</table>
         					<ul style="margin:0; margin-left: 25px; padding:0;" align="left" type="disc">
             					<li>Removed duplicates: using the ROW_NUMBER, Common Table Expression (CTE) i.e. WITH and DELETE statements.</li>
             					<li>Standardize the data; removing space at the beginning of columns using DISTNCT, LIKE, TRIM, TRAILING, UPDATE, SET, STR_TO_DATE() and ALTER TABLE statements.</li>
             					<li>Removed null and blank values: using JOIN and CREATE TABLE to bring the same table side-by-side, them compare and populate common columns.</li>
 								<li>Removed irrelevant rows and columns: using the DELETE, ALTER TABLE and DROP COLUMN statements.</li>
 							</ul>
-								</table>
+								
 								<ul class="actions special">
 									<li><a href="#" class="button large">VIEW PROJECT</a></li>
 								</ul>
