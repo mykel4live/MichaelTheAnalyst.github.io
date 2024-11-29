@@ -21,7 +21,7 @@
 					<div id="intro">
 						<h1>Michael The Analyst Portfolio<br />
 						</h1>
-						<p>Data Analyst skilled in SQL, Tableau, Excel, Power BI and Python <a href="https://twitter.com/ajlkn">
+						<p>Data Analyst skilled in SQL, Tableau, Excel, Power BI and Python <a href="https://twitter.com/">
 							@mykel4live</b></a>  </p>
 						<ul class="actions">
 							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
@@ -36,7 +36,7 @@
 				<!-- Nav -->
 					<nav id="nav">
 						<ul class="links">
-							<li class="active"><a href="projects.html">PROJECTS OVERVIEW</a></li>
+							<li class="active"><a href="index.html">PROJECTS OVERVIEW</a></li>
 							<li><a href="sql.html">SQL PROJECTS</a></li>
 						</ul>
 						<ul class="icons">
@@ -51,70 +51,71 @@
 					<div id="main">
 
 						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<h2><a href="#">Data Cleaning in SQL </a>
-									</h2>
-								</header>
-								
-							<a href="#" class="image main"><img src="images/covid19.jpg" alt="" /></a>
-								
-							<p> In this project, I cleaned World Layoff data as of 2023 in SQL Server. The data set described the impact of COVID 19 on countries and companies around the world as of 2023.</p>					
-								
-								<table style="width:100%">
-      								<tr>
-        								<td colspan="3" bgcolor="#A4A4A4">Steps taken to clean up dataset are:</td>
-      								</tr>
-								</table>
-        					<ul style="margin:0; margin-left: 25px; padding:0;" align="left" type="disc">
-            					<li>Removed duplicates: using the ROW_NUMBER, Common Table Expression (CTE) i.e. WITH and DELETE statements.</li>
-            					<li>Standardize the data; removing space at the beginning of columns using DISTNCT, LIKE, TRIM, TRAILING, UPDATE, SET, STR_TO_DATE() and ALTER TABLE statements.</li>
-            					<li>Removed null and blank values: using JOIN and CREATE TABLE to bring the same table side-by-side, them compare and populate common columns.</li>
-								<li>Removed irrelevant rows and columns: using the DELETE, ALTER TABLE and DROP COLUMN statements.</li>
+						<article class="post featured">
+							<header class="major">
+								<h2><a href="https://github.com/mykel4live/MichaelTheAnalyst/commit/33698f683b3f25414ae8135a3055aba481e69e02">Data Cleaning in SQL </a>
+								</h2>
+							</header>
+							
+						<a href="https://github.com/mykel4live/MichaelTheAnalyst/commit/33698f683b3f25414ae8135a3055aba481e69e02" class="image main"><img src="images/covid19.jpg" alt="" /></a>
+							
+						<p> In this project, I cleaned World Layoff data as of 2023 in SQL Server. The data set described the impact of COVID 19 on countries and companies around the world as of 2023.</p>					
+							
+							<table style="width:100%">
+								  <tr>
+									<td colspan="3" bgcolor="#A4A4A4">Steps taken to clean up dataset are:</td>
+								  </tr>
+							</table>
+						<ul style="margin:0; margin-left: 25px; padding:0;" align="left" type="disc">
+							<li>Removed duplicates: using the ROW_NUMBER, Common Table Expression (CTE) i.e. WITH and DELETE statements.</li>
+							<li>Standardize the data; removing space at the beginning of columns using DISTNCT, LIKE, TRIM, TRAILING, UPDATE, SET, STR_TO_DATE() and ALTER TABLE statements.</li>
+							<li>Removed null and blank values: using JOIN and CREATE TABLE to bring the same table side-by-side, them compare and populate common columns.</li>
+							<li>Removed irrelevant rows and columns: using the DELETE, ALTER TABLE and DROP COLUMN statements.</li>
+						</ul>
+							
+							<ul class="actions special">
+								<li><a href="https://github.com/mykel4live/MichaelTheAnalyst/commit/33698f683b3f25414ae8135a3055aba481e69e02" class="button large">VIEW PROJECT</a></li>
 							</ul>
-								
-								<ul class="actions special">
-									<li><a href="#" class="button large">VIEW PROJECT</a></li>
-								</ul>
 				</article>
 							
 				
 
 						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<h2><a href="#">Exploratory Data Analysis (EDA) in SQL<br /></a>
-									</h2>
-								</header>
-								<a href="#" class="image fit"><img src="images/covid19 2.jpg" alt="" /></a>
-								
-								<p> Data Exploration of World Layoffs - Impact of COVID 19 Dataset in SQL Server, using the aggregate functions; COUNT(), COUNTIF(), SUM(), AVG(), MIN(), MAX() and the WHERE, GROUP BY, ORDER BY and DESC statements.</p>
-																
-								<table style="width:100%">
-      								<tr>
-        								<td colspan="3" bgcolor="#A4A4A4">Amongst many others, the following were explored using the dataset:</td>
-      								</tr>
-	  	 						
-									<tr>
-										<td colspan="3">
-											<ul style="margin:0; margin-left: 25px; padding:0;" align="left" type="disc">
-				  								<li>MAX total_laid_off and MAX percentage_laid_off</li>
-				  								<li>total_laid_off DESC</li>
-				  								<li>funds_raised_millions DESC</li>
-				  								<li>GROUP company by SUM of total_laid_off, GROUP by SUM in DESC</li>
-				  								<li>GROUP industry by SUM of total_laid_off, GROUP by SUM in DESC</li>
-				 								<li>GROUP country by SUM of total_laid_off, GROUP by SUM in DESC</li>
-				  								<li>SUBSTRING to roll up year-month in the (`date`) column</li>
-				  								<li>Using CTE ‘WITH’ to perform a Rolling_Total on year-month in the (`date`) SUM column</li>
-				  								<li>DENSE_RANK to RANK and ORDER company by their SUM(total_laid_off)</li>
-			  								</ul>
-										</td>
-		  							</tr>
-          						</table>
-									<ul class="actions special">
-										<li><a href="#" class="button large">VIEW PROJECT</a></li>
-									</ul>
-							</article>
+						<article class="post featured">
+							<header class="major">
+								<h2><a href="https://github.com/mykel4live/MichaelTheAnalyst/commit/78ac3ce9d32164fd2da27e20fc1788503d873c5d">Exploratory Data Analysis (EDA) in SQL<br /></a>
+								</h2>
+							</header>
+							<a href="https://github.com/mykel4live/MichaelTheAnalyst/commit/78ac3ce9d32164fd2da27e20fc1788503d873c5d" class="image fit"><img src="images/covid19 2.jpg" alt="" /></a>
+							
+							<p> Data Exploration of World Layoffs - Impact of COVID 19 Dataset in SQL Server, using the aggregate functions; COUNT(), COUNTIF(), SUM(), AVG(), MIN(), MAX() and the WHERE, GROUP BY, ORDER BY and DESC statements.</p>
+															
+							<table style="width:100%">
+								  <tr>
+									<td colspan="3" bgcolor="#A4A4A4">Amongst many others, the following were explored using the dataset:</td>
+								  </tr>
+							   
+								<tr>
+									<td colspan="3">
+										<ul style="margin:0; margin-left: 25px; padding:0;" align="left" type="disc">
+											  <li>MAX total_laid_off and MAX percentage_laid_off</li>
+											  <li>total_laid_off DESC</li>
+											  <li>funds_raised_millions DESC</li>
+											  <li>GROUP company by SUM of total_laid_off, GROUP by SUM in DESC</li>
+											  <li>GROUP industry by SUM of total_laid_off, GROUP by SUM in DESC</li>
+											 <li>GROUP country by SUM of total_laid_off, GROUP by SUM in DESC</li>
+											  <li>SUBSTRING to roll up year-month in the (`date`) column</li>
+											  <li>Using CTE ‘WITH’ to perform a Rolling_Total on year-month in the (`date`) SUM column</li>
+											  <li>DENSE_RANK to RANK and ORDER company by their SUM(total_laid_off)</li>
+										  </ul>
+									</td>
+								  </tr>
+							  </table>
+								<ul class="actions special">
+									<li><a href="https://github.com/mykel4live/MichaelTheAnalyst/commit/78ac3ce9d32164fd2da27e20fc1788503d873c5d" class="button large">VIEW PROJECT</a></li>
+								</ul>
+						
+						</article>
 
 	
 					</div>
